@@ -1,3 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+} */
+
 .landing-page {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/landing_page.jpg");
     background-size: cover;
@@ -24,5 +30,25 @@
 
 /* About Section */
 #about {
+    background-color: #f8f3dd;
+}
+
+/* Projects imgs */
+#projects img {
+    max-width: 100%;
+    width: 450px;
+    height: 350px;
+}
+
+.details-btn {
+    padding: 10px 10px;
+    background-color: #e9e1c2;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
     background-color: #f8f3dd;
 }
