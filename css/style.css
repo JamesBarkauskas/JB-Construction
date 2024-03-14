@@ -12,6 +12,7 @@ body {
 
 .landing-page #nav {
     background-color: #e9e1c2;
+    height: 72px;
 }
 
 .hover-border a:hover {
@@ -51,4 +52,30 @@ body {
 /* Contact Section */
 #contact {
     background-color: #f8f3dd;
+}
+
+#contact-form {
+    background-color: white;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact-button {
+    padding: 10px 50px;
+    background-color: #e9e1c2;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 150px;
+    background-color: #ddb497;
+}
+
+.footer p {
+    padding-top: 75px;
+    
 }
